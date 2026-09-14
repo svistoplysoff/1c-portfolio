@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DefinedType uuid="6164cfa6-cb63-4fa7-8c1a-27671b05cd97">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ПредметПроцесса" category="DefinedType">
+				<xr:TypeId>5e9f5d6d-d0a2-46c9-b728-51b7f81f1045</xr:TypeId>
+				<xr:ValueId>3a5a180a-9f6b-4f8b-ab56-d2a528c760bb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПредметПроцесса</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предмет процесса</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+				<v8:Type>cfg:DocumentRef.СписаниеДенежныхСредств</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПоступлениеДенежныхСредств</v8:Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+				<v8:Type>cfg:DocumentRef.РеализацияТоваровИУслуг</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПоступлениеТоваровИУслуг</v8:Type>
+				<v8:Type>cfg:CatalogRef.НоменклатурныеГруппы</v8:Type>
+				<v8:Type>cfg:DocumentRef.НачислениеОплатыПоОкладу</v8:Type>
+				<v8:Type>cfg:DocumentRef.УстановкаСкидок</v8:Type>
+				<v8:Type>cfg:DocumentRef.НачислениеПремииПроцентом</v8:Type>
+				<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+				<v8:Type>cfg:DocumentRef.УстановкаЦен</v8:Type>
+				<v8:Type>cfg:DocumentRef.НачислениеСписком</v8:Type>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

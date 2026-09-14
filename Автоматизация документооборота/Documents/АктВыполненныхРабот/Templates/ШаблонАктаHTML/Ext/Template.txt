@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 10mm 15mm 10mm;
+        }
+        body {
+            font-family: "Liberation Serif", "Times New Roman", serif;
+            font-size: 14pt;
+            line-height: 1.5;
+            color: #000000;
+            background-color: #ffffff;
+            margin: 0;
+        }
+        .act-number {
+            text-align: center;
+            font-weight: bold;
+            font-size: 16pt;
+            margin: 8px 0;
+        }
+        .act-subtitle {
+            text-align: center;
+            margin: 8px 0;
+        }
+        .preamble {
+            text-align: justify;
+            text-indent: 15mm;
+            margin: 8px 0;
+        }
+        .item {
+            text-align: justify;
+            text-indent: 15mm;
+            margin: 8px 0;
+        }
+        table.works {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 8px 0;
+        }
+        table.works th, table.works td {
+            border: 1px solid #000000;
+            padding: 8px 6px;
+            vertical-align: top;
+        }
+        table.works th {
+            font-weight: bold;
+            text-align: center;
+        }
+        td.center {
+            text-align: center;
+            vertical-align: middle;
+        }
+        .amount {
+            text-align: right;
+            white-space: nowrap;
+        }
+        .thin {
+            width: 10%;
+        }
+        .lines {
+            height: 21pt;
+            margin-left: 15mm;
+            border-bottom: 1px solid #000000;
+        }
+        .remark {
+            font-style: italic;
+            text-decoration: underline;
+        }
+        .sig-block {
+            margin-top: 8px;
+        }
+        .sig-empty {
+            height: 21pt;
+        }
+    </style>
+</head>
+<body>
+
+<p class="act-number">АКТ № [НомерАкта]</p>
+<p class="act-subtitle">приемки-сдачи выполненных работ согласно договора №[НомерДоговора] от [ДатаДоговора] года</p>
+
+<table style="width: 100%; border: none; border-collapse: collapse;" width="100%">
+    <tr>
+        <td style="border: none; text-align: left; vertical-align: top; padding: 0;">г. Брянск</td>
+        <td style="border: none; text-align: right; vertical-align: top; padding: 0;">[ДатаАкта]</td>
+    </tr>
+</table>
+
+<p class="preamble"><b>[НазваниеОрганизации]</b>, именуемое в дальнейшем «Заказчик», в лице генерального директора [Директор], действующего на основании Устава, с одной стороны и плательщик Налога на профессиональный доход (самозанятое лицо) <b>[ФИО]</b>, именуемая в дальнейшем «Исполнитель», с другой стороны составили настоящий акт о нижеследующем:</p>
+
+<p class="item">1. Исполнителем выполнены, а Заказчиком приняты следующие работы:</p>
+
+<table class="works" style="width: 100%; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th class="thin" style="padding: 8px; border: 1px solid #000;">№ п/п</th>
+            <th style="padding: 8px; border: 1px solid #000;">Наименование выполненных работ</th>
+            <th class="thin" style="padding: 8px; border: 1px solid #000;">Ед. изм.</th>
+            <th class="thin" style="padding: 8px; border: 1px solid #000;">Кол-во</th>
+            <th class="thin" style="padding: 8px; border: 1px solid #000;">Цена, руб.</th>
+            <th class="thin" style="padding: 8px; border: 1px solid #000;">Сумма, руб.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center" style="text-align: center; padding: 8px; border: 1px solid #000;">1</td>
+            <td style="padding: 8px; border: 1px solid #000;">Оказание услуг по заполнению анкетных форм ([ПериодТекст])</td>
+            <td class="center" style="text-align: center; padding: 8px; border: 1px solid #000;">часы</td>
+            <td class="center" style="text-align: right; padding: 8px; border: 1px solid #000;">[КоличествоЧасов]</td>
+            <td class="center" style="text-align: right; padding: 8px; border: 1px solid #000;">[СтавкаЧаса]</td>
+            <td class="center" style="text-align: right; padding: 8px; border: 1px solid #000;">[ИтоговаяСумма]</td>
+        </tr>
+        <!-- Строка Итого -->
+        <tr>
+            <!-- Первые 4 ячейки объединены и полностью скрыты -->
+            <td colspan="4" style="border: none;"></td>
+            <!-- Ячейка со словом Итого: без видимых границ вокруг текста -->
+            <td style="text-align: right; padding: 8px; border: none; border-top: 1px solid #000;"><b>Итого:</b></td>
+            <!-- Рамка осталась только у ячейки с финальной суммой -->
+            <td class="center" style="text-align: right; padding: 8px; border: 1px solid #000;"><b>[ИтоговаяСумма]</b></td>
+        </tr>
+    </tbody>
+</table>
+
+<p class="item"><b>Всего выполнено работ на сумму: [ИтоговаяСумма] ([СуммаПрописью]) рублей.</b></p>
+
+<p class="item">2. Качество выполненных работ проверено Заказчиком в присутствии Исполнителя и соответствует условиям договора.</p>
+<p class="item">Претензии по работе ___<span class="remark">замечаний нет</span>.</p>
+<p class="lines"></p>
+<p class="lines"></p>
+
+<p class="item">3. Заказчик претензий по качеству и объему выполненных работ к Исполнителю не имеет.</p>
+<p class="item">4. Настоящий акт приемки-сдачи выполненных работ составлен в двух экземплярах, имеющих одинаковую юридическую силу, по одному экземпляру для каждой из Сторон.</p>
+
+<table style="width: 100%; border-collapse: collapse; margin-top: 30px;">
+    <tr>
+        <!-- Шапки блоков подписей на одном уровне -->
+        <td style="width: 50%; vertical-align: top; padding-right: 20px;">
+            <b>Работы сдал:</b>
+        </td>
+        <td style="width: 50%; vertical-align: top; padding-left: 20px;">
+            <b>Работы принял:</b>
+        </td>
+    </tr>
+    <tr>
+        <!-- Должность принимающей стороны -->
+        <td style="width: 50%; vertical-align: top; padding-right: 20px;"></td>
+        <td style="width: 50%; vertical-align: top; padding-left: 20px;">
+            <p style="margin: 0;">Генеральный директор</p>
+            <p style="margin: 0;">[НазваниеОрганизации]</p>
+        </td>
+    </tr>
+    <tr>
+        <!-- Линии подписей и даты на одном уровне -->
+        <td style="width: 50%; vertical-align: bottom; padding-right: 20px; padding-top: 40px;">
+            <div style="border-bottom: 1px solid #000; padding-bottom: 5px; margin-bottom: 5px;">
+                _________________ / [ФИОСокращенно]
+            </div>
+            <p style="margin: 0;">Дата: [ДатаАкта]</p>
+        </td>
+        <td style="width: 50%; vertical-align: bottom; padding-left: 20px; padding-top: 40px;">
+            <div style="border-bottom: 1px solid #000; padding-bottom: 5px; margin-bottom: 5px;">
+                _________________ / [ДиректорСокращенно]
+            </div>
+            <p style="margin: 0;">Дата: [ДатаАкта]</p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

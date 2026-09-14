@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="fa6d52e2-9e7c-476d-ae1b-c5026b3e296c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.МужскойЖенскийПол" category="Ref">
+				<xr:TypeId>61c20935-9602-4626-9439-687093d20fe8</xr:TypeId>
+				<xr:ValueId>bb009639-1b44-40b4-9922-2ce35a3795ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.МужскойЖенскийПол" category="Manager">
+				<xr:TypeId>a00c5186-6d86-4377-a98c-6d48e6acfb4c</xr:TypeId>
+				<xr:ValueId>e7de0085-8682-4079-9600-73c97dc0ce7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.МужскойЖенскийПол" category="List">
+				<xr:TypeId>ef84c2a5-f7c1-4abc-bf20-5bfeb289aab4</xr:TypeId>
+				<xr:ValueId>8bede803-57ba-43cb-ba5c-bf3fc9823ee5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МужскойЖенскийПол</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мужской женский пол</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="432ea645-ffee-4b0e-b498-77702735a15b">
+				<Properties>
+					<Name>Мужской</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мужской</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="38d4e461-c85d-4240-b7e7-1b58767db0be">
+				<Properties>
+					<Name>Женский</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Женский</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
