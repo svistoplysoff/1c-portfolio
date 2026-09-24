@@ -1,4 +1,4 @@
-[![Gmail](icons/gmail.svg)](mailto:user@gmail.com) [![Telegram](icons/telegram.svg)](https://t.me/username) [![GitHub](icons/github.svg)](https://github.com/svistoplysoff)
+<a href="mailto:user@gmail.com"><img src="icons/gmail.svg" width="32" alt="Gmail"></a> <a href="https://t.me/username"><img src="icons/telegram.svg" width="32" alt="Telegram"></a> <a href="https://github.com/svistoplysoff"><img src="icons/github.svg" width="32" alt="GitHub"></a>
 
 <img src="Мое%20фото/foto.jpg" alt="Моё фото" width="200" align="right" style="border-radius: 50%;">
 
@@ -101,4 +101,4 @@
 
 ## Мои контакты
 
-[![Gmail](icons/gmail.svg)](mailto:user@gmail.com) [![Telegram](icons/telegram.svg)](https://t.me/username) [![GitHub](icons/github.svg)](https://github.com/svistoplysoff)
+<a href="mailto:user@gmail.com"><img src="icons/gmail.svg" width="32" alt="Gmail"></a> <a href="https://t.me/username"><img src="icons/telegram.svg" width="32" alt="Telegram"></a> <a href="https://github.com/svistoplysoff"><img src="icons/github.svg" width="32" alt="GitHub"></a>
