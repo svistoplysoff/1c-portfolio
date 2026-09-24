@@ -1,12 +1,12 @@
 <!-- Профильный README для репозитория <username>/<username> (здесь: svistoplysoff/svistoplysoff).
      GitHub показывает его на главной странице профиля.
      Перед публикацией:
-     1) замените плейсхолдеры <Имя Фамилия>, user@gmail.com, username;
+     1) замените плейсхолдер <Имя Фамилия>;
      2) скопируйте в этот репозиторий папку icons/ (из репозитория Портфолио);
      3) по желанию добавьте своё круглое фото как foto_round.png в корень репозитория
         (квадратный снимок с прозрачными углами — такой же, как Мое фото/foto_round.png в Портфолио). -->
 
-<a href="mailto:user@gmail.com"><img src="icons/gmail.svg" width="32" alt="Gmail"></a> <a href="https://t.me/username"><img src="icons/telegram.svg" width="32" alt="Telegram"></a> <a href="https://github.com/svistoplysoff"><img src="icons/github.svg" width="32" alt="GitHub"></a>
+<a href="https://github.com/svistoplysoff"><img src="icons/github.svg" width="32" alt="GitHub"></a>
 
 <img src="foto_round.png" alt="<Имя Фамилия>" width="200" align="right">
 
@@ -43,4 +43,4 @@
 
 ## Мои контакты
 
-<a href="mailto:user@gmail.com"><img src="icons/gmail.svg" width="32" alt="Gmail"></a> <a href="https://t.me/username"><img src="icons/telegram.svg" width="32" alt="Telegram"></a> <a href="https://github.com/svistoplysoff"><img src="icons/github.svg" width="32" alt="GitHub"></a>
+<a href="https://github.com/svistoplysoff"><img src="icons/github.svg" width="32" alt="GitHub"></a>
