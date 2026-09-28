@@ -133,3 +133,14 @@
     ├── Configuration.xml
     └── Catalogs/ Documents/ Subsystems/
 ```
+
+---
+
+## 📫 Связаться со мной
+
+- **Телефон** — [+7 (980) 316-20-15](tel:+79803162015)
+- **Email** — [maxim.rodin32@mail.ru](mailto:maxim.rodin32@mail.ru)
+- **Telegram** — [@svistoplysoff](https://t.me/svistoplysoff)
+- **MAX** — [max.ru/u/f9LHod…](https://max.ru/u/f9LHodD0cOIeeqjpLG3emsZr8WSgI7rWPVeSAFKfbfxwAAnJBCVyzqnHPRE)
+
+---
